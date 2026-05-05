@@ -1,4 +1,6 @@
 class Svg2androidwebp < Formula
+  include Language::Python::Virtualenv
+
   desc "Convert SVG files to Android WebP density variants"
   homepage "https://github.com/ThibaultCharr/svg2androidwebp"
   url "https://github.com/ThibaultCharr/svg2androidwebp/archive/refs/tags/v1.6.0.tar.gz"
